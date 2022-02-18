@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;800&display=swap');
+body{
+    padding: 100px;
+ 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+body
+{
+    
+    width: 100%;
+    background-image: linear-gradient(to left bottom, #bb0e70, #a21678, #861e7d, #67257e, #46287b, #393b8c, #254c99, #005ca4, #0084c5, #00addb, #00d4e9, #5ffbf1);
+    overflow: hidden;
+    background-size: 400% 400%;
+    animation: gradient-bg 15s ease infinite;
+
+}
+
+@keyframes gradient-bg
+{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+
+}
+.submite-area
+{
+    width: 100%;
+    background: #0575E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    overflow: hidden;
+    background-size: 400% 400%;
+    animation: gradient-bg 15s ease infinite;
+
+}
+
+@keyframes gradient-bg
+{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+
+}
+
+
+
+
+#login-area{
+    
+}
+.submite-area{
+    margin-top: 50px;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+#transection-area{
+  display: none;
+}
+.main-heading{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: black;
+    font-size: 50px;
+    
+}
+.info-text{
+    color: white;
+}
+.info_text{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+}
+.btn{
+    padding: 10px;
+    background: black;
+    border: none;
+}
+.btn:hover{
+    background: white;
+    color: black;
+}
+.status {
+    margin: 0 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    transition: all .5s ease-in; 
+    color: white;
+
+}
+    
+
+.status:hover { 
+    transform: scale(1.1);
+    transition: all .5s ease-out;
+ }
+ .add-ammount{
+
+ }
+ .in-out {
+    padding: 60px;
+    margin-left: 5px;
+    text-align: left;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600px;
+    box-shadow: rgb(50 50 93 / 25%) 0px 13px 27px -5px, rgb(0 0 0 / 30%) 0px 8px 16px -8px;
+}
+.status h2{
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: white;
+    
+    
+}
+.deposit{
+    background: slateblue;
+    color: white;
+}
+.withdraw{
+    background: lightsalmon;
+    color: white;
+}
+.balance{
+    background: orange;
+    color: white;
+}
+
+@media only screen and (max-width: 668px) {
+    body{
+        padding: 0px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .status{
+        padding-bottom: 10px;
+    }
+    .offset-3 {
+        margin-left: 0%;
+    }
+  }
